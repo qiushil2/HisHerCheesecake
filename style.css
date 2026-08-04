@@ -136,7 +136,8 @@ nav a{
 
 .flavors{
 
-    padding:100px 8%;
+    width:100%;
+    padding:120px 5%;
     background:#fff;
 
 }
@@ -150,14 +151,14 @@ nav a{
 
 .section-title h2{
 
-    font-size:48px;
+    font-size:58px;
     margin-bottom:15px;
 
 }
 
 .section-title p{
 
-    font-size:18px;
+    font-size:20px;
     color:#777;
 
 }
@@ -165,14 +166,13 @@ nav a{
 .flavor-grid{
 
     display:grid;
+    grid-template-columns:repeat(2,minmax(420px,1fr));
+    gap:90px 120px;
 
-    grid-template-columns:repeat(2,1fr);
+    width:100%;
+    max-width:1600px;
 
-    gap:60px;
-
-    max-width:1000px;
-
-    margin:auto;
+    margin:0 auto;
 
 }
 
@@ -192,7 +192,7 @@ nav a{
 
     width:100%;
 
-    max-width:360px;
+    max-width:500px;
 
     display:block;
 
@@ -202,9 +202,9 @@ nav a{
 
 .flavor-card h3{
 
-    margin-top:18px;
+    margin-top:22px;
 
-    font-size:22px;
+    font-size:26px;
 
     font-weight:600;
 
@@ -215,11 +215,12 @@ nav a{
 
 .story{
 
-    max-width:1280px;
+    width:95%;
+    max-width:1800px;
 
     margin:0 auto;
 
-    padding:180px 60px;
+    padding:180px 0;
 
 }
 .story-title{
@@ -237,7 +238,7 @@ nav a{
 
     align-items:center;
 
-    gap:80px;
+    gap:120px;
 
     margin-bottom:180px;
 
@@ -245,9 +246,9 @@ nav a{
 
 .story-block img{
 
-    flex:0 0 60%;
+    flex:0 0 65%;
 
-    max-width:60%;
+    max-width:65%;
 
     border-radius:12px;
 
@@ -257,7 +258,7 @@ nav a{
 
 .story-text{
 
-    flex:0 0 30%;
+    flex:0 0 32%;
 
 }
 
@@ -346,11 +347,12 @@ nav a{
 
 .order{
 
-    max-width:1450px;
+    width:95%;
+    max-width:1800px;
 
     margin:0 auto;
 
-    padding:180px 60px;
+    padding:180px 0;
 
 }
 
@@ -403,7 +405,7 @@ nav a{
 
     grid-template-columns:repeat(2,1fr);
 
-    gap:32px;
+    gap:60px;
 
 }
 
@@ -413,7 +415,7 @@ nav a{
 
     border-radius:16px;
 
-    padding:70px 60px;
+    padding:80px 70px;
 
     background:white;
 
