@@ -276,42 +276,64 @@
 
 .product-hero{
 
-    padding:60px 24px;
+    padding:50px 20px;
 
 }
 
 .product-wrapper{
 
-    grid-template-columns:58% 42%;
+    display:flex;
+
+    flex-direction:column;
+
+    gap:40px;
 
 }
+
+.product-image{
+
+    margin-top:0;
+
+    text-align:center;
+
+}
+
 .product-image img{
 
-    max-width:780px;
+    width:100%;
+
+    max-width:360px;
+
+    margin:0 auto;
 
 }
 
 .product-content{
 
     max-width:100%;
+    text-align:center;
+
 
 }
 
 .product-content h1{
 
-    font-size:42px;
+    font-size:34px;
+
+    line-height:1.2;
 
 }
 
-.product-description{
+.product-content h2{
 
-    font-size:17px;
+    font-size:28px;
 
 }
 
 .ingredients-grid{
 
-    grid-template-columns:1fr;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
 
 }
 
@@ -327,7 +349,20 @@
 
 }
 
+.product-navigation{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    text-align:center;
+
 }
+
+}
+
 /* ==========================
    ALLERGEN NOTICE
 ========================== */
