@@ -543,7 +543,7 @@ nav a{
 
     color:#222;
 
-    text-align:center;
+    text-align:left;
 
 }
 
@@ -1010,11 +1010,11 @@ nav a{
 
     min-height:auto;
     padding:50px 30px;
-
+ 
 }
 .pickup-section h4{
 
-    text-align:left;
+    text-align:center;
 
 }
 
